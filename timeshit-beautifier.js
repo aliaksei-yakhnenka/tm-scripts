@@ -34,10 +34,8 @@
                     $('.x-grid3-col-4').each(function(index) {
                         if ('Completed' == $(this).text()) {
                             // gray out completed tasks
-                            //$(this).closest('div.x-grid3-row').find('div').css('color', '#b3b3b3');
-                            //$(this).closest('div.x-grid3-row').find('tr').css('background', '#f5f5f5');
-                            // or remove them completely
-                            $(this).closest('div.x-grid3-row').remove();
+                            $(this).closest('div.x-grid3-row').find('div').css('color', '#b3b3b3');
+                            $(this).closest('div.x-grid3-row').find('tr').css('background', '#f5f5f5');
                         }
                     });
                     $('td.x-grid3-col').css('border', '1px solid #c6c6c6');
