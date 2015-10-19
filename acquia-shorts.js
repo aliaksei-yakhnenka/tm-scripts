@@ -22,9 +22,9 @@
     addStyle('.table-wrapper tbody td {height: 21px;}');
     addStyle('.ah-workflow-item, .ah-workflow-drag-item { font-size: 13px; color: #333333; }');
     addStyle('div.ah-environment-header { text-shadow: 1px 1px 2px #333 !important; }');
-    addStyle('.navigation-second-wrapper-inner { padding: 5px !important; }')
-    addStyle('.navigation-third-wrapper .block-menu-block ul.menu li.active-trail a { border-color: #0f0 !important; }')
-    addStyle('.ah-environment-row .ah-environment-wrapper { width: 185px !important; }')
+    addStyle('.navigation-second-wrapper-inner { padding: 5px !important; }');
+    addStyle('.navigation-third-wrapper .block-menu-block ul.menu li.active-trail a { border-color: #0f0 !important; }');
+    addStyle('.ah-environment-row .ah-environment-wrapper { width: 185px !important; }');
     addStyle('.grid16-16 { width: auto !important; }');
     addStyle('.grid16-12 { width: auto !important; }');
     addStyle('.grid16-4 { width: auto !important; }');
@@ -114,4 +114,4 @@
 
     $('#block-acquia_network-feedback').remove();
     head.appendChild(style);
-})(jQuery)
+})(jQuery);
