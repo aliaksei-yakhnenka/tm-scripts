@@ -32,6 +32,7 @@
                         $(this).closest('div.x-grid3-row').css('background', color);
                     });
                     $('.x-grid3-col-4').each(function(index) {
+                        if ('Completed' == $(this).text()) {
                             $(this).closest('div.x-grid3-row').find('div').css('color', '#b3b3b3');
                             $(this).closest('div.x-grid3-row').find('tr').css('background', '#f5f5f5');
                         }
